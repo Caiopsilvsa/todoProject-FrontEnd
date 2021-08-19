@@ -1,0 +1,15 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.footer{
+    background-color: black;
+    height: 5%;
+    position:fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    font-size: 1em;
+
+}  
+
+p{
+    color: blanchedalmond;
+}

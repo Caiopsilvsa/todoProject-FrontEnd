@@ -1,0 +1,12 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+img{
+
+      height: 3rem;
+
+}
+
+.mat-toolbar-row{
+
+     justify-content: center;  
+}
