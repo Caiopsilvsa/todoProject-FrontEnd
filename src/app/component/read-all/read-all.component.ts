@@ -9,7 +9,7 @@ import { TodoService } from 'src/app/service/todo.service';
 })
 export class ReadAllComponent implements OnInit {
   
-list:Todo[]=[]
+list:Todo[]=[];
 
   
 

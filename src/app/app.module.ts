@@ -11,12 +11,19 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ReadAllComponent } from './component/read-all/read-all.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import { CreateComponent } from './component/create/create.component';
+import { FormsModule } from '@angular/forms';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { NativeDateModule } from '@angular/material/core';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ReadAllComponent
+    ReadAllComponent,
+    CreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +34,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     MatButtonModule,
     HttpClientModule,
+    MatInputModule,
+    FormsModule,
+    MatDatepickerModule,
+    NativeDateModule ,
   ],
   providers: [],
   bootstrap: [AppComponent]
