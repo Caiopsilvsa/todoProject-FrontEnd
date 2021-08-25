@@ -1,9 +1,40 @@
-.example-form-field {
-    width: 200px;
-  }
-body{
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-color: black;
+
+form{
+
+   width: 80%;
+   text-align: center;
+   margin: auto;
 
 }
- 
+
+h1{
+    
+  font-weight: 600;
+  color: rgb(127, 190, 231);
+
+}
+
+
+.form{
+  width: 100%;
+}
+
+.calendar{
+text-align: start;
+
+}
+
+.input1{
+  width: 100%;
+  margin: auto;
+
+}
+
+.input2{
+
+  width: 100%;
+  margin: auto;
+}
+

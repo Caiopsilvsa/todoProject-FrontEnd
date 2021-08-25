@@ -1,15 +1,10 @@
+
+
 <div class = "container">
 
-<mat-card-actions>
- <div class="newtodo">
-  <div class = "mat-elevation-z8">
-  <span style="margin-right: 1rem;">Novo Todo</span>
-  <button mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
-    <mat-icon>add</mat-icon>
-  </button>
-</div>
- </div>
-</mat-card-actions>
+  <div class="new">
+    <button routerLink = "create" mat-stroked-button color="primary">NOVO TODO</button>
+   </div>
 
   <div class="content">
      <mat-card class="mat-elevation-z8" *ngFor ="let item of list">
