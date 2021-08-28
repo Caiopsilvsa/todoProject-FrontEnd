@@ -1,7 +1,7 @@
 export interface Todo{
  
     finalizacao :boolean
-    dataParaFinalizar: Date,
+    DataParaFinalizar: Date,
     id?: String,
     titulo?: String,
     descricao: String,
