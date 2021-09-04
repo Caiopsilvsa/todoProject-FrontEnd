@@ -27,5 +27,20 @@ list:Todo[]=[];
 
    }
 
+   finished(todo:Todo):void{
+       this.service.finished(todo).subscribe( ()=>{
+         this.service.message("Atividade finalizada!!");
+         this.list = this.list.filter(result => result.id !==todo.id )
+       })
+
+   }
+  
+   delete(id: any):void{
+     this.service.delete(id).subscribe(result =>{
+      this.service.message("Deletado com sucesso!") 
+      this.list = this.list.filter(todo=> todo.id !==id)
+     })
+
+   }
 
 }
